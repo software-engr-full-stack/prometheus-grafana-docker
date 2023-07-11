@@ -27,8 +27,6 @@ scrape_configs:
 
     static_configs:
       - targets:
-        # - "localhost:9100"
-        # - "localhost:9090"
         - "test-host:9100"
 
 
